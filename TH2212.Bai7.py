@@ -13,6 +13,7 @@ for i in range(n):
        print('Song{i}; {name}')
 #The name song longest and corresponding number
 the_name_song_longest = music_list[0]
+text = the_name_song_longest.split()
 the_number_of_words_in_the_longest_song = len (the_name_song_longest.split())
 address_of_song = 0
 #Iterate through the elements of a list
